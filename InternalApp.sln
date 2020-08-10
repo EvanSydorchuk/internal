@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28307.1082
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalApp", "InternalApp\InternalApp.csproj", "{8BC3FE58-F96F-45B4-97D7-C65171B622A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{3B083A3E-CFAF-4524-B87D-B5FC7477FEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{0980E3B2-AB77-456A-BE22-B6E8E1E3AE81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A66858C2-0801-4A8C-9C2C-510C578A9E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Tests", "DAL_Tests\DAL_Tests.csproj", "{FDA5BDED-FABF-44AB-B931-0A1E907DF785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_Tests", "BLL_Tests\BLL_Tests.csproj", "{27BABA94-1FE8-47F7-BB7A-9C4B04EA5FAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +25,29 @@ Global
 		{8BC3FE58-F96F-45B4-97D7-C65171B622A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BC3FE58-F96F-45B4-97D7-C65171B622A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BC3FE58-F96F-45B4-97D7-C65171B622A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B083A3E-CFAF-4524-B87D-B5FC7477FEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B083A3E-CFAF-4524-B87D-B5FC7477FEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B083A3E-CFAF-4524-B87D-B5FC7477FEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B083A3E-CFAF-4524-B87D-B5FC7477FEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0980E3B2-AB77-456A-BE22-B6E8E1E3AE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0980E3B2-AB77-456A-BE22-B6E8E1E3AE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0980E3B2-AB77-456A-BE22-B6E8E1E3AE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0980E3B2-AB77-456A-BE22-B6E8E1E3AE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA5BDED-FABF-44AB-B931-0A1E907DF785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA5BDED-FABF-44AB-B931-0A1E907DF785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA5BDED-FABF-44AB-B931-0A1E907DF785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA5BDED-FABF-44AB-B931-0A1E907DF785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BABA94-1FE8-47F7-BB7A-9C4B04EA5FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BABA94-1FE8-47F7-BB7A-9C4B04EA5FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BABA94-1FE8-47F7-BB7A-9C4B04EA5FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BABA94-1FE8-47F7-BB7A-9C4B04EA5FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDA5BDED-FABF-44AB-B931-0A1E907DF785} = {A66858C2-0801-4A8C-9C2C-510C578A9E45}
+		{27BABA94-1FE8-47F7-BB7A-9C4B04EA5FAE} = {A66858C2-0801-4A8C-9C2C-510C578A9E45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C7A3542-5779-4C32-B8C6-7DCB171A9B69}
